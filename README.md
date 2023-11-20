@@ -11,5 +11,4 @@ tf workspace new apps
 
 tf apply
 
-
-TODO: tf out app links
+tf output
