@@ -1,4 +1,5 @@
 tf init
+
 tf workspace new cr
 
 tf apply
