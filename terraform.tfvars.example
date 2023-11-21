@@ -1,0 +1,2 @@
+do_token          = "digitalocean_token"
+registry_endpoint = "e.g. povops"
