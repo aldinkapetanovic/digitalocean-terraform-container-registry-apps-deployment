@@ -12,7 +12,7 @@ provider "digitalocean" {
   token = var.do_token
 }
 
-resource "digitalocean_app" "povops-app" {
+resource "digitalocean_app" "app" {
   spec {
     name   = "app"
     region = "fra1"
@@ -42,7 +42,7 @@ resource "digitalocean_app" "povops-app" {
   }
 }
 
-resource "digitalocean_app" "povops-app-stage" {
+resource "digitalocean_app" "app-stage" {
   spec {
     name   = "app-stage"
     region = "fra1"
@@ -72,7 +72,7 @@ resource "digitalocean_app" "povops-app-stage" {
   }
 }
 
-resource "digitalocean_app" "povops-srv" {
+resource "digitalocean_app" "srv" {
   spec {
     name   = "srv"
     region = "fra1"
@@ -102,7 +102,7 @@ resource "digitalocean_app" "povops-srv" {
   }
 }
 
-resource "digitalocean_app" "povops-srv-stage" {
+resource "digitalocean_app" "srv-stage" {
   spec {
     name   = "srv-stage"
     region = "fra1"
