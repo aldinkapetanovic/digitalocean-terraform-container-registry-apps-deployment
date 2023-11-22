@@ -13,7 +13,7 @@ provider "digitalocean" {
   token = var.do_token
 }
 
-resource "digitalocean_container_registry" "povops-cr" {
+resource "digitalocean_container_registry" "cr" {
   name                   = var.registry_endpoint
   subscription_tier_slug = "basic"
   region                 = "fra1"
